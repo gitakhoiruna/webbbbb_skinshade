@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff7f9">
+  <title>Daftar | Skin&Shade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Skin&Shade Beranda"><img src="assets/skinshade-logo.png" alt="Logo Skin&Shade" class="brand-logo" onerror="this.onerror=null;this.style.visibility='hidden'"><span class="brand-word">Skin<span>&amp;</span>Shade</span></a>
+  <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false"><svg class="ico i-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><svg class="ico i-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+  <nav class="nav-links" aria-label="Navigasi utama">
+    <a href="index.html" data-nav="home"><svg class="ico nav-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>Beranda</a>
+    <a href="skincare.html" data-nav="skincare"><svg class="ico nav-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>Skincare</a>
+    <a href="makeup.html" data-nav="makeup"><svg class="ico nav-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.83-.44-1.12-.29-.29-.44-.65-.44-1.13a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.55-2.5 5.55-5.55C21.97 6.01 17.46 2 12 2z"/></svg>Makeup</a>
+    <a href="analysis.html" data-nav="analysis"><svg class="ico nav-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg>Analisis Kulit</a>
+  </nav>
+  <div class="nav-auth"><a class="login-link" href="login.html">Masuk</a><a class="btn btn-small" href="register.html">Daftar</a></div>
+</header>
+<main>
+
+<section class="auth-wrap"><div class="auth-card"><img class="auth-logo" src="assets/skinshade-logo.png" alt="Logo Skin&Shade" onerror="this.onerror=null;this.style.visibility='hidden'"><h1>Buat akun</h1><p>Mulai perjalanan memahami kulitmu bersama Skin&amp;Shade.</p>
+<form id="register-form" novalidate><div class="form-field"><label for="reg-name">Nama lengkap</label><div class="input-wrap"><svg class="ico in-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><input id="reg-name" type="text" placeholder="Nama kamu" autocomplete="name" required></div></div><div class="form-field"><label for="reg-email">Email</label><div class="input-wrap"><svg class="ico in-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><input id="reg-email" type="email" placeholder="nama@email.com" autocomplete="email" required></div></div><div class="form-field"><label for="reg-password">Kata sandi</label><div class="input-wrap"><svg class="ico in-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><input id="reg-password" type="password" placeholder="Minimal 8 karakter" minlength="8" autocomplete="new-password" required></div></div><div class="form-field"><label for="reg-confirm">Konfirmasi kata sandi</label><div class="input-wrap"><svg class="ico in-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><input id="reg-confirm" type="password" placeholder="Ulangi kata sandi" minlength="8" autocomplete="new-password" required></div></div><button class="btn" type="submit">Daftar</button><div class="form-message" id="register-message" role="status"></div></form>
+<div class="auth-foot">Sudah punya akun? <a class="text-link" href="login.html">Masuk</a></div><div class="auth-foot"><a class="text-link" href="index.html"><svg class="ico arr back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg> Kembali ke beranda</a></div></div></section>
+
+</main>
+<footer class="site-footer">
+  <a class="footer-brand" href="index.html">Skin&amp;Shade</a>
+  <p>Kenali kulitmu, rawat dengan lebih bijak.</p>
+  <div class="footer-links"><a href="skincare.html">Panduan Skincare</a><a href="makeup.html">Panduan Makeup</a><a href="analysis.html">Analisis Kulit</a></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
